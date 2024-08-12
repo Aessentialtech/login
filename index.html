@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html fomrs</title>
+    <style>
+        p{
+            background-color: black;text-decoration: dotted;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <form style="background-color: aquamarine; font-style: normal;">
+        <h2 style="text-align: center;text-transform: capitalize;">Html form</h2>  
+        <p>
+            <label for="first name">first name</label>
+            <input type="text" autocomplete="on" id="first name" placeholder="first name" required>
+        </p>
+        <p>
+            <label for="second name">second name</label>
+            <input type="text" id="second name" placeholder="second name">
+        </p>
+        <p>
+            <label for="surname">surname</label>
+            <input type="text" id="surname" autocomplete="on" placeholder="surname" required>
+        </p>
+        <p>
+            <label for="state of origin">state of origin</label>
+            <select name="" id="state of origin">
+                <option value="">Enugu</option>
+                <option value="">Abakaliki</option>
+                <option value="">Imo</option>
+                <option value="">Abia</option>
+                <option value="">Anambra</option>
+            </select>
+</p>
+<p>
+    <label for="nationality">nationality</label>
+    <select name="" id="nationality">
+        <option value="">Nigerian</option>
+        <option value="">Ghanian</option>
+        <option value="">Eygptian</option>
+        <option value="">Cameronian</option>
+        <option value="">Angolian</option>
+    </select>
+</p>
+<p>
+    <label for="religion">religion</label>
+    <input type="text" id="religion" placeholder="religion">
+</p>
+<p>
+    <label for="gender">gender</label>
+    <input type="text" id="gender" autocomplete="on" placeholder="gender">
+</p>
+<p>
+    <label for="age">age</label>
+    <input type="number" id="age" min="18+" max="50" placeholder="18+" autocomplete="on">
+</p>
+<p>
+    <label for="Bank">Bank</label>
+    <select name="" id="Bank">
+    <option value="">access bank</option>
+    <option value="">fidelity bank</option>
+    <option value="">gt bank</option>
+    <option value="">union bank</option>
+    <option value="">zenith bank</option>
+    <option value="">eco bank</option>
+    </select>
+</p>
+<p>
+    <label for="level of education">level of education</label>
+    <input type="text" list="level of education">
+    <datalist id="level of education">
+        <option value="SSCE">SSCE</option>
+        <option value="bsc">bsc</option>
+        <option value="masters">masters</option>
+        <option value="doctorate">doctorate</option>
+    </datalist>
+</p>
+<p>
+    <input type="submit">
+</p>
+<p>
+    <label for="">YOUR HOBBIES</label>
+</p>
+<p>
+    <span>reading</span>
+    <input type="checkbox">
+</p>
+<p>
+    <span>football</span>
+    <input type="checkbox">
+</p>
+<p>
+    <span>swimming</span>
+    <input type="checkbox">
+</p>
+<p>
+    <span>traveling </span>
+    <input type="checkbox">
+</p>
+<p>
+    <span>Adventures</span>
+    <input type="checkbox">
+</p>
+<p>
+    <label for="">A little self introduction</label><br>
+    <textarea name="minlenght 20"  maxlength="50" cols="30" rows="15"></textarea>
+</p>
+<p>
+    <label for="">Phd holder</label>
+</p>
+<p>
+    <span>Yes </span>
+    <input type="radio" name="color">
+</p>
+<p>
+    <span>No</span>
+    <input type="radio" name="color">
+</p>
+        </p>
+    </form>
+</body>
+</html>
